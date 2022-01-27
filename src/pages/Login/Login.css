@@ -1,0 +1,76 @@
+.login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.login-header {
+    height: 83px;
+    margin-top: 100px;
+}
+
+.login-header-text {
+    text-align: center;
+    font: normal normal 800 44px/28px Lexend Deca;
+    letter-spacing: -2.2px;
+}
+
+.login-header-subtext {
+    font: normal normal normal 22px/28px Lexend Deca;
+    text-align: center;
+    letter-spacing: 0.44px;
+    padding: 12px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 250px;
+    margin-bottom: auto;
+    margin-top: 25px;
+}
+
+.login-input {
+    border: 3px solid #000000;
+    width: 100%;
+    text-align: left;
+    font: normal normal normal 16px/20px Lexend Deca;
+    letter-spacing: 0.32px;
+    color: #9d9d9d;
+    padding: 12px;
+}
+
+.login-input-error {
+    border: 3px solid #ea4c5c;
+    color: #ea4c5c;
+}
+
+.login-input-error:focus {
+    outline: none;
+}
+
+.login-input-error-message {
+    height: 15px;
+    text-align: center;
+    font: normal normal normal 12px/15px Lexend Deca;
+    letter-spacing: 0.24px;
+    color: #ea4c5c;
+}
+
+.input-container {
+    width: 327px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.login-input-label {
+    font: normal normal 800 14px/18px Lexend Deca;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+}

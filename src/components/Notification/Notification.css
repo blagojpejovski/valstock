@@ -1,0 +1,26 @@
+.notification-container {
+    background-color: black;
+    z-index: 10;
+    bottom: 0;
+    position: absolute;
+    height: 180px;
+    width: 100vw;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    transition: 0.5s all ease-out;
+}
+
+.notification-message {
+    text-align: center;
+    font: normal normal bold 32px/40px Lexend Deca;
+    letter-spacing: 0.64px;
+    color: #ffffff;
+}
+
+.notification-hidden {
+    height: 0px;
+}
+
+.notification-message-hidden {
+    display: none;
+}

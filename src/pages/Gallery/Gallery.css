@@ -1,0 +1,23 @@
+.gallery-container {
+    margin: auto;
+    column-count: 3;
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-width: 33%;
+    -webkit-column-width: 33%;
+    -moz-column-width: 33%;
+    width: 75%;
+}
+
+.gallery-image {
+    width: 100%;
+    margin: 10px;
+    transition: 0.15s all ease-out;
+    -webkit-transition: 0.15s all ease-out;
+    -moz-transition: 0.15s all ease-out;
+}
+
+.gallery-image:hover {
+    cursor: pointer;
+    transform: scale(1.01);
+}

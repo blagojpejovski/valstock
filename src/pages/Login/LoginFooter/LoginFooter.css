@@ -1,0 +1,23 @@
+.login-footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 424px;
+}
+
+.login-footer-pic {
+  position: absolute;
+  width: 625px;
+  margin-top: -20px;
+  z-index: 1;
+}
+
+.login-footer-bg {
+  background-color: black;
+  margin-top: auto;
+  height: 250px;
+  width: 100%;
+  z-index: 0;
+}
